@@ -1,244 +1,137 @@
-@media screen and (max-width:1008px)  {
-  header .top-header .logo {
-    margin-left: 5px;
-  }
-  header .top-header nav {
-    float:  none;
-  }
-  
-  header .top-header .social-icons {
-    margin: -50px 19px;
-  }
-}
-
-@media screen and (max-width:1025px) {
-  header .top-header .social-icons {
-    margin: -50px 19px;
-  }
-  .block .item-block .way {
-    width: 50%;
-    margin-top: 10px;
-}
-  
-  
-  .block .item-block .way .info {
-    width: 250px;
-  }
-  
-  .services .item-block-2 .item-2 {
-    width: 50%;
-  }
-  
-  .services .item-block-2 .item-2 .left {
-    margin-left: -270px;
-  }
-  .services .item-block-2 .item-2 img {
-    margin-top: 25px;
-  }
-}
-
-@media screen and (max-width:1218px) {
-  .container {
-    padding-left: 5px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-}
-
-@media screen and (max-width:877px)  {
+@media screen and (max-width:1250px) {
   body {
-    font-size: 14px;
+    font-size: 19px;
   }
-  header .top-header nav { 
-    display: none;
-    width: 80%;
-    text-align: center;
-    float: none;
-    position: absolute;
-    top: 90px;
-    left: -10px;
-    background-color: rgba(176, 193, 211, 0.6);
-    z-index: 9999;
+}
+
+@media screen and (max-width:1050px) {
+  body {
+    font-size: 15px
   }
-  header .top-header .social-icons {
-    margin: 30px 19px;
-    float: left;
-  }
-  
-  .menu-btn {
+}
+
+@media screen and (max-width:800px) {
+  header .container .menu-btn {
     display: inline-block;
-    
   }
-  header .top-header nav ul.navigation li {
-    display: block;
-    height: 55px;
-  }
-  header .top-header nav ul.navigation li a {
-    color: #000000;
-  }
-  header .top-header nav ul.navigation li a:active {
-    color: #ff0000;
-  }
-  header .top-header nav ul.navigation li:hover {
-    background: none;
-}
-
- .prices .prices-block .item-block {
-    width: 100% ! important;
-  }
-  
-  .prices .prices-block .item-block .bottom a.sign {
-    padding: 20px 20px;
-  }
-  .prices .prices-block .item-block .margin {
-    margin-top: 5px;
-  }
-  
-  footer .down {
-    top: 10px !important;
-  }
-}
-
-
-
-  @media screen and (max-width:667px) {
-    .block .item-block .way {
-      width: 100%;
-      margin-top: 16px;
-}
-  }
-
-
-@media screen and (max-width:320px) {
-  body {
-    font-size: 8px ! important;
-  }
-  .about .item-block {
-    margin-left: -37px;
-  }
-  .about .item-block .item p.text {
-    width: 310px;
-  }
-  
-  header .top-header .social-icons {
-    margin: -3px 34px;
-  }
-  
-  .aaa {
-    top: 10px ! important;
-  }
-  
-  footer .down {
-    margin-top: -5px ! important;
-  }
-}
-  
-@media screen and (min-width:877px) {
   header .top-header nav {
-    display: block ! important;
+    display: none;
+    float: left;
+    width: 50%;
+    line-height: 30px
   }
-}
-
-@media screen and (max-width:825px) {
-  .services .item-block-2 .item-2 .left {
-    margin-left: -55%;
+  header .container .top-header nav ul li {
+    display: block;
   }
-}
-
-@media screen and (max-width:544px) {
-  .services .item-block-2 .item-2 {
+  header .container .down {
+    margin-left: 20%;
+  }  
+  .section-team .container .flex-item-block {
+  }
+  .section-team .container .flex-item-block .item {
     width: 100%;
   }
- .text-block {
+  .order {
+    min-height:  1270px;
+  }
+  .order .container .img {
+    display: block;
+    text-align: left;
+    margin-left: 35%;
+  }
+  .order .container .img img {
+    width: 55%;
+  }
+  .contact ul {
+    float: none;
+    display: block;
+    margin-left: 11%;
+  }
+  .contact .adress {
+    float: none;
+    display: block;
+    width: 70%;
+    margin-left: 17%;
+  }
+  .contact .email {
+    float: none;
+    text-align: left;
+    margin-left: 18%;
+  }  
+}
+
+@media screen and (max-width:740px) {
+  footer {
+    width: 100%;
+  }
+  footer .items .img-block {
     display: none;
   }
-  
-  footer .down {
-    top: 5px !important;
-    right: 10px !important;
+  footer .items .footer-contacts {
+    margin-left: 30%;
   }
-  
-  .down img {
-    width: 40% ! important;
+  footer .items .info {
+    width: 300px;
   }
 }
 
-@media screen and (max-width:1151px) {
-  .about .item-block .item {
-    width: 100%;
-    margin-left: 10%;
-    padding-top: 10px;
+@media screen and (max-width:700px) {
+  .order {
+    min-height:  1200px;
   }
-  .about {
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-  
-  .prices .prices-block .item-block {
-    width: 50%;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .prices .prices-block .item-block .bottom a.sign {
-    padding: 20px;
-  }
-  
-  
-  .prices .prices-block .item-block:first-child {
-    border-left: 15px solid #efefef;
 }
-  .prices .prices-block .item-block:last-child {
-    border-right: 15px solid #efefef;   
-}
-  
-}
+/*--------MIN-WIDTH-------*/
 
-@media screen and (max-width:1191px) {
-  .prices .prices-block .item-block .bottom .bg-c {
-    padding: 5% 85px;
-  }
-    .prices .prices-block .item-block h5.content::after {
-    right: 115px;
+@media screen and (min-width:800px) {
+  header .top-header nav {
+    display: block !important;
   }
 }
 
-@media screen and (max-width:471px) {
+@media screen and (max-width:619px) {
+  footer .items {
+    flex-direction: column;
+  }
+  footer .items .footer-contacts {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:600px) {
   body {
-    font-size: 10px;
+    font-size: 13px
   }
-  
-  footer .out {
-    margin-top: -9px ! important;
+  header .container .down {
+    padding-left: 0%;
   }
-  
-  footer .down {
-    right: 0 ! important;
-    top: 8px ! important; 
+  .order {
+    min-height: 1100px;
+  }
+  .order .container .list {
+    padding-left: 50px;
+  }
+  .contact ul {
+    margin-left: 9%;
   }
 }
 
-@media screen and (max-width:920px) {
-  .prices .prices-block .item-block h5.content::after {
-    right: 25%;
+@media screen and (max-width:466px) {
+  header .container .down {
+    margin-left: 10%;
   }
-  
-  footer .down {
-    top: 15px;
-    right:  15px;
+  header .top-header nav {
+    margin-left: 10%;
   }
- .aaa img {
-    width: 80%;
+  header .top-header nav ul {
+    margin-left: 5%;
   }
-  
-  .down img {
-    width: 60%;
+  .order {
+    min-height: 1000px;
   }
-  
-}
-
-@media screen and (max-width:722px) {
-  .subsccribe {
-    margin-top: 10px !important;
+  .contact ul {
+    margin-left: 7%;
+  }
+  footer .items {
+    margin-left: -15%;
   }
 }
