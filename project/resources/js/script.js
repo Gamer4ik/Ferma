@@ -1,4 +1,6 @@
-var map = new GMaps({
+$(document).ready(function(){
+  
+  var map = new GMaps({
   div: '.map',
   lat: 42.843887,
   lng: 74.269880,
@@ -12,11 +14,7 @@ map.addMarker({
     content: '<p>OAO <<АК-КУУ>></p>'
   }
 });
-
-
-
-
-$(document).ready(function(){
+  
 $('#menu-btn').click(function(){  
    $('nav').slideToggle(400); 
    if ($(this).hasClass('not-active')) {
@@ -26,12 +24,13 @@ $('#menu-btn').click(function(){
   else{
     setTimeout(function(){
      $('.is-active').addClass('not-active').removeClass('is-active')
-    },600)   
+    },300)   
    }  
   });
-})
-
-/* Navigation scroll */
+  
+  
+  
+  /* Navigation scroll */
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -46,3 +45,46 @@ $('#menu-btn').click(function(){
         }
       });
     });
+
+	$(".section-team").waypoint(function(direction){	
+		if (direction == "down") {
+			$(".btn-up").addClass("btn-up-active")
+		} else {
+			$(".btn-up").removeClass("btn-up-active");
+		}
+	}, {
+		offset: "60px"
+	});
+
+	$(".section-team").waypoint(function(direction){	
+		if (direction == "down") {
+			$(".top-header").addClass("header-active")
+		} else {
+			$(".top-header").removeClass("header-active");
+		}
+	}, {
+		offset: "60px"
+	});
+
+    $('.js--wp-2').waypoint(function(direction) {
+        $('.js--wp-2').addClass('animated fadeInUp');
+    }, {
+        offset: '50%'
+    }); 
+  
+    $('.flex-item-block').waypoint(function(direction) {
+          $('.flex-item-block').addClass('animated fadeInUp');
+      }, {
+        offset: '50%'
+    });
+  
+  
+  
+  
+  
+  
+  
+  
+  
+})
+

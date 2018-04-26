@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$orange-color".
-        on line 36 of sass/partial/top-header.sass
+        on line 37 of sass/partial/top-header.sass
 
-31:             font-size: 90%
 32:             border-bottom: 2px solid transparent
 33:             transition: border-bottom 0.2s
 34:             padding-bottom: 5px
-35:           a:hover
-36:             border-bottom: 2px solid $orange-color
-37:           a.maz
-38:             color: $orange-color
-39:   
-40: 
-41:     h1
+35:             font-weight: 500
+36:           a:hover
+37:             border-bottom: 2px solid $orange-color
+38:           a.maz
+39:             color: $orange-color
+40:   
+41: 
+42:     h1
 
 Backtrace:
-sass/partial/top-header.sass:36
+sass/partial/top-header.sass:37
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -127,4 +127,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange-color\".\A         on line 36 of sass/partial/top-header.sass\A \A 31:             font-size: 90%\A 32:             border-bottom: 2px solid transparent\A 33:             transition: border-bottom 0.2s\A 34:             padding-bottom: 5px\A 35:           a:hover\A 36:             border-bottom: 2px solid $orange-color\A 37:           a.maz\A 38:             color: $orange-color\A 39:   \A 40: \A 41:     h1"; }
+  content: "Error: Undefined variable: \"$orange-color\".\A         on line 37 of sass/partial/top-header.sass\A \A 32:             border-bottom: 2px solid transparent\A 33:             transition: border-bottom 0.2s\A 34:             padding-bottom: 5px\A 35:             font-weight: 500\A 36:           a:hover\A 37:             border-bottom: 2px solid $orange-color\A 38:           a.maz\A 39:             color: $orange-color\A 40:   \A 41: \A 42:     h1"; }

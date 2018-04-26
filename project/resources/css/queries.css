@@ -8,6 +8,9 @@
   body {
     font-size: 15px
   }
+  .contact .email::before {
+    top: -3px;
+  }
 }
 
 @media screen and (max-width:800px) {
@@ -37,7 +40,7 @@
   .order .container .img {
     display: block;
     text-align: left;
-    margin-left: 35%;
+    margin-left: 32%;
   }
   .order .container .img img {
     width: 55%;
@@ -51,13 +54,20 @@
     float: none;
     display: block;
     width: 70%;
-    margin-left: 17%;
+    margin-left: 16%;
   }
   .contact .email {
     float: none;
     text-align: left;
-    margin-left: 18%;
-  }  
+    margin-left: 17%;
+    margin-top: 30px;
+  }
+  .contact .email::before {
+    top: -5px;
+  }
+  .header-active .menu-btn {
+    top: 20px !important;
+  }
 }
 
 @media screen and (max-width:740px) {
@@ -95,6 +105,12 @@
   footer .items .footer-contacts {
     margin-left: 0;
   }
+  .contact .adress {
+    margin-left: 18%;
+  }
+  .contact .email {
+    margin-left: 19%;
+  }
 }
 
 @media screen and (max-width:600px) {
@@ -116,6 +132,9 @@
 }
 
 @media screen and (max-width:466px) {
+  body {
+    overflow-x: hidden;
+  }
   header .container .down {
     margin-left: 10%;
   }
@@ -134,4 +153,10 @@
   footer .items {
     margin-left: -15%;
   }
+  .contact .adress {
+    margin-left: 19%;
+  }
+  .contact .email {
+    margin-left: 21%;
+  }  
 }
