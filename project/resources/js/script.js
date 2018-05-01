@@ -66,6 +66,8 @@ $('#menu-btn').click(function(){
 		offset: "60px"
 	});
 
+  /* Animated */
+  
     $('.js--wp-2').waypoint(function(direction) {
         $('.js--wp-2').addClass('animated fadeInUp');
     }, {
@@ -76,11 +78,18 @@ $('#menu-btn').click(function(){
           $('.flex-item-block').addClass('animated fadeInUp');
       }, {
         offset: '50%'
-    });
+    });   
   
   
-  
-  
+	$(".section-team").waypoint(function(direction){	
+		if (direction == "down") {
+			$(".fade").addClass("animated fadeInUp")
+		} else {
+			$(".fade").removeClass("animated fadeInUp");
+		}
+	}, {
+		offset: "60px"
+	});
   
   
   

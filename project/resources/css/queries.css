@@ -11,6 +11,9 @@
   .contact .email::before {
     top: -3px;
   }
+  header .top-header .logo {
+    padding-bottom: 5px;
+  }
 }
 
 @media screen and (max-width:800px) {
@@ -129,6 +132,12 @@
   .contact ul {
     margin-left: 9%;
   }
+  .contact .adress {
+    margin-left: 16%;
+  }
+  .contact .email {
+    margin-left: 17%;
+  }
 }
 
 @media screen and (max-width:466px) {
@@ -154,9 +163,9 @@
     margin-left: -15%;
   }
   .contact .adress {
-    margin-left: 19%;
+    margin-left: 17%;
   }
   .contact .email {
-    margin-left: 21%;
+    margin-left: 18.6%;
   }  
 }
